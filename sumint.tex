@@ -134,6 +134,7 @@
 \newtheorem{proposition}{Proposition}%[section]
 \newtheorem{assumption}{Assumption}%[section]
 \newtheorem{example}{Example}%[section]
+\newtheorem{question}{Question}%[section]
 % Change theoremstyle to ``definition'', which uses textnormal for the text.
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}%[section]
@@ -355,7 +356,6 @@
         \int_{\RR^2} \log \left[ 1 + f(x)f(y) \right] \md x \md y
         \;\ge\; \int_{\RR^2} \log \left[ 1 - f(x)f(y) \right] \md x \md y.
     \end{equation*}
-    The equality holds if and only if~$f = 0$ almost everywhere.
 \end{proposition}
 
 \begin{proof}
@@ -386,8 +386,11 @@ Applying this proposition to a piecewise constant function with finite pieces, w
     \begin{equation*}
         \prod_{1\le i, j\le n} \frac{1+a_ia_j}{1-a_ia_j} \;\ge\;1.
     \end{equation*}
-    The equality holds if and only if~$a_1 = \cdots = a_n = 0$.
 \end{corollary}
+
+\begin{question}
+    When do the equalities hold?
+\end{question}
 
 
 
